@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "reviewed_images": [
+    "qa/look-before-cleanup.png",
+    "qa/extended-before-cleanup.png",
+    "frames/idle/00.png"
+  ],
+  "directions": [
+    {
+      "degree": 180,
+      "verdict": "pass",
+      "expected": "down",
+      "observed": "down",
+      "reason": "Horizontal: face is centered with balanced eyes. Vertical: chin drops, pupils aim low and crown occupies more of the head, making down unmistakable."
+    },
+    {
+      "degree": 202.5,
+      "verdict": "warning",
+      "expected": "down-left, down dominant",
+      "observed": "down with subtle left bias",
+      "reason": "Horizontal: pupils and lower face shift slightly screen-left; no right reversal, but distinction from 180 is weak at normal size. Vertical: low chin and compressed face beneath crown clearly retain down."
+    },
+    {
+      "degree": 225,
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "reason": "Horizontal: nose and mouth move screen-left, right ear emerges and far eye narrows. Vertical: lowered chin and low pupil placement retain downward pitch."
+    },
+    {
+      "degree": 247.5,
+      "verdict": "warning",
+      "expected": "down-left, left dominant",
+      "observed": "left with subtle downward pitch",
+      "reason": "Horizontal: clear leftward facial turn with right ear visible and far eye narrowed. Vertical: chin is lower and eye line more downward than 270, but downward component is subtle at normal size."
+    },
+    {
+      "degree": 270,
+      "verdict": "pass",
+      "expected": "left",
+      "observed": "left",
+      "reason": "Horizontal: unmistakable left head turn, nose and mouth facing screen-left, right ear exposed and far eye compressed. Vertical: near-level pitch distinguishes cardinal from lowered 225 and raised 315."
+    },
+    {
+      "degree": 292.5,
+      "verdict": "warning",
+      "expected": "up-left, left dominant",
+      "observed": "left with subtle upward pitch",
+      "reason": "Horizontal: left head turn remains clear with right ear exposed. Vertical: pupils and chin are slightly higher than 270, retaining the upward quadrant, though adjacent frames are visually close."
+    },
+    {
+      "degree": 315,
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "reason": "Horizontal: nose, mouth and face aim screen-left with right ear visible. Vertical: raised chin, exposed lower face and high pupils clearly indicate upward pitch."
+    },
+    {
+      "degree": 337.5,
+      "verdict": "pass",
+      "expected": "up-left, up dominant",
+      "observed": "up-left",
+      "reason": "Horizontal: nose and mouth remain screen-left with right ear visible. Vertical: lifted chin and high pupils clearly point up. Horizontal turn remains stronger than ideal for an up-dominant angle, producing a noticeable transition into frontal 000."
+    }
+  ],
+  "continuity": "Ordered down to down-left to left to up-left progression without wrong quadrant or reversal. 157.5 to 180 changes from subtle right bias into centered down correctly. 247.5 to 270 has a noticeable left turn; 337.5 to 000 has a noticeable return to frontal up. These metric outliers reflect head turn rather than scale change, displaced body, or clipping.",
+  "identity": "White spiky hair, two blue eyes without eyepatch, white suit, navy shirt and red tie maintained in every frame. Full hair is inside each cell.",
+  "registration": "Body scale and shoe baseline visually stable relative to neutral idle. Head silhouettes vary with pitch and turn; no whole-body scale jump or hair clipping.",
+  "alpha_hole_review": "The y201 transparent spans correspond to the open gap between the two separated shoes and legs at the baseline. No accidental interior seam is visible in the face, hair, suit or torso.",
+  "scope": "Directional and registration QA before edge cleanup. Green fringe is excluded from this verdict. Pass with warnings for subtle intermediate vertical/horizontal components and boundary turn steps."
+}

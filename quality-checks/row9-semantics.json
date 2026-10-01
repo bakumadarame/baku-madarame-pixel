@@ -1,0 +1,70 @@
+{
+  "ok": true,
+  "reviewed_strip": "qa/look-row-9-registered.png",
+  "cell_size": [
+    192,
+    208
+  ],
+  "directions": [
+    {
+      "degree": 0,
+      "verdict": "pass",
+      "expected": "up",
+      "observed": "up",
+      "reason": "Both pupils high in round eye openings; raised chin and exposed lower face. Horizontal face balance is centered."
+    },
+    {
+      "degree": 22.5,
+      "verdict": "warning",
+      "expected": "up-right",
+      "observed": "up with very subtle right bias",
+      "reason": "Horizontal: face/pupil displacement toward right is weak at normal cell size and close to 000. Vertical: high pupils and raised chin clearly retain upward aim."
+    },
+    {
+      "degree": 45,
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "reason": "Horizontal: nose/mouth and near eye move toward screen right, with left ear visible and far eye narrowed. Vertical: lifted chin and pupils high in openings retain upward pitch."
+    },
+    {
+      "degree": 67.5,
+      "verdict": "warning",
+      "expected": "up-right, right dominant",
+      "observed": "right with subtle upward pitch",
+      "reason": "Horizontal: clear rightward facial turn, left ear visible and far eye narrower. Vertical: pupils sit slightly high and chin is less lowered than at 112.5, but upward component is subtle."
+    },
+    {
+      "degree": 90,
+      "verdict": "pass",
+      "expected": "right",
+      "observed": "right",
+      "reason": "Clear screen-right head turn: left ear visible, far eye narrowed, nose/mouth shifted right; pitch near level. Matches approved right cardinal."
+    },
+    {
+      "degree": 112.5,
+      "verdict": "pass",
+      "expected": "down-right, right dominant",
+      "observed": "down-right",
+      "reason": "Horizontal: near eye, nose and mouth remain shifted screen-right with visible left ear. Vertical: brow slopes downward, chin drops and crown occupies more of the head than at 090."
+    },
+    {
+      "degree": 135,
+      "verdict": "warning",
+      "expected": "down-right",
+      "observed": "down with subtle right bias",
+      "reason": "Horizontal: face approaches frontal; a small rightward pupil/face bias remains but is weak at normal size. Vertical: lowered chin, compressed face below large crown, and downward pupils clearly indicate down."
+    },
+    {
+      "degree": 157.5,
+      "verdict": "warning",
+      "expected": "down-right, down dominant",
+      "observed": "down with very subtle right bias",
+      "reason": "Horizontal: almost centered face, with no clear leftward reversal; right component is difficult to distinguish at normal cell size. Vertical: low chin and face beneath expanded crown clearly indicate downward aim."
+    }
+  ],
+  "continuity": "Ordered up → upper-right → right → lower-right → down progression. No wrong quadrant or clear reversal. Adjacent 000/022.5 and 067.5/090 are visually close, while 112.5→135 has a noticeable turn toward frontal down; usable but intermediate axis distinctions are subtle.",
+  "identity": "White spiky hair, two blue eyes without eyepatch, white suit, navy shirt and red tie preserved. Hair complete in all eight cells.",
+  "registration": "Body scale and shoe baseline stay visually aligned with neutral idle; head silhouettes vary with pitch without clipping.",
+  "additional_visual_note": "A thin green outline remains visible on portions of the silhouettes in the registered QA strip. This report judges directional semantics; edge cleanup should remove it before final delivery."
+}

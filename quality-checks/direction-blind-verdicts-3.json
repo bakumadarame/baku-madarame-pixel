@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-left",
+      "B": "ambiguous",
+      "reason": "A face/eyes left; B nearly frontal."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "Nose/eyes/cheeks opposing sides."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "Opposing three-quarter profiles."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A nose left; B nose right."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "Lowered faces show opposite sideward orientation."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "ambiguous",
+      "B": "screen-left",
+      "reason": "A down nearly frontal; B facial center/eyes left."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "ambiguous",
+      "B": "screen-left",
+      "reason": "A down frontal; B face angled left."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "up",
+      "B": "down",
+      "reason": "A eyes/chin raised; B brow/face down."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "down",
+      "B": "up",
+      "reason": "A eyes under low brow; B chin lifted."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A eyes/chin up; B tucked down."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "ambiguous",
+      "B": "down",
+      "reason": "A level; B nose/chin lowered."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "up",
+      "reason": "A face down; B chin/gaze up."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "up",
+      "B": "down",
+      "reason": "A chin/eyes lifted; B head/gaze lowered."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "ambiguous",
+      "reason": "A face/eyes downward; B level."
+    }
+  ]
+}

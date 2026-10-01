@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "rows": 9,
+  "failed_width_range": [
+    126,
+    128
+  ],
+  "failed_hair_top": [
+    5,
+    8,
+    11,
+    25,
+    38,
+    16,
+    7,
+    5
+  ],
+  "jump_feet_bottom": [
+    203,
+    196,
+    179,
+    196,
+    203
+  ],
+  "source_clipping": false,
+  "foreign_fragments": false,
+  "notes": "Actual run/frames and contact-sheet pass; obsolete incremental auto reports superseded by final stable extraction."
+}

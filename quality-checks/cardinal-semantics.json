@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "directions": [
+    {
+      "degree": "000",
+      "verdict": "pass",
+      "reason": "Lifted chin and eyes face screen top; lower face visible."
+    },
+    {
+      "degree": "090",
+      "verdict": "pass",
+      "reason": "Head yaw, nose and pupils right of head center, left ear visible."
+    },
+    {
+      "degree": "180",
+      "verdict": "pass",
+      "reason": "Lowered chin and eyes look down under crown."
+    },
+    {
+      "degree": "270",
+      "verdict": "pass",
+      "reason": "Head yaw, nose and pupils left of head center, right ear visible."
+    }
+  ]
+}

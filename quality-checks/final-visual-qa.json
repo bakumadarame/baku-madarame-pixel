@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "visual_qa": "pass",
+  "blockers": [],
+  "repair_rows": [],
+  "warnings": [
+    "Subtle intermediate axes at 022.5, 067.5, 135, 157.5, 202.5, 247.5 and 292.5 accepted in labelled normal-size ordered review. Cardinals are definite; no opposite quadrant or reversal.",
+    "247.5->270 and 337.5->000 have noticeable discrete head-turn steps; accepted as minor rather than conspicuous registration snap, scale pop or identity change. Body, feet and costume remain anchored."
+  ],
+  "evidence": {
+    "inspected_images": [
+      "contact-sheet-extended.png",
+      "look-directions.png",
+      "edges-light-dark.png"
+    ],
+    "preview_review": "All frames of all 10 GIF previews extracted deterministically to finalqa-*.png and visually inspected at 192x208 cell size.",
+    "preview_frame_counts": {
+      "idle": 6,
+      "running-right": 8,
+      "running-left": 8,
+      "waving": 4,
+      "jumping": 5,
+      "failed": 8,
+      "waiting": 6,
+      "running": 6,
+      "review": 6,
+      "look-directions": 16
+    },
+    "identity": "Same white/lilac shaded complete hair silhouette, uncovered blue eyes, white suit, navy shirt and red tie throughout. Natural eyelid closure in blink/failed states and profile occlusion in lateral looks; no eyepatch or strap.",
+    "standard_semantics": "Idle blink visible. Right and left locomotion face correct screen directions and alternate long stride with tucked/contact phase. Waving raises hand. Jump crouches, lifts both feet at middle apex and returns. Failed slumps; waiting extends open palm; running uses focused thinking gestures without foot-running; review alternates thoughtful head/hand poses.",
+    "scale_and_integrity": "No unintended scale popping, clipped hair/body, detached marks, foreign components or accidental interior slicing. Pose changes account for silhouette variation.",
+    "jump_lift": "Middle frame feet are visibly above ground baseline; full body translates upward with crouch/airborne/landing sequence.",
+    "cardinals": "000 high pupils and raised chin; 180 lowered chin and eyes under crown; 090 nose/face points screen-right with near/far eye asymmetry; 270 nose/face points screen-left with right ear exposed.",
+    "continuity": "Reviewed full 16-pose sequence including wraparound. Clockwise progression remains cohesive; changes at 247.5->270 and 337.5->000 reflect head orientation, not whole-sprite rotation or semantic reversal.",
+    "alpha_holes": "y=201 detections are natural negative space between separated shoes, not holes inside solid costume.",
+    "authoritative_chroma": "validation-extended.json ok true with no errors/warnings, chroma-despill-extended.json ok true. Edge samples clean on light/dark backgrounds. No further cleanup or generation requested.",
+    "qa_review": "review.json ok true/errors empty; stable-slot warnings resolved by full-frame preview inspection.",
+    "blind_review": "direction-blind-validation.json ok true/errors empty; hard cardinal pairs pass. Intermediate ambiguity remains accepted warning.",
+    "per_direction_semantics": "Existing direction-semantics.json reviewed; per-direction verdicts and reasons upheld without changes."
+  }
+}

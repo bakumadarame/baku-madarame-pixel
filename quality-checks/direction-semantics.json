@@ -1,0 +1,122 @@
+{
+  "ok": true,
+  "directions": [
+    {
+      "degree": 0,
+      "verdict": "pass",
+      "expected": "up",
+      "observed": "up",
+      "reason": "Both pupils high in round eye openings; raised chin and exposed lower face. Horizontal face balance is centered."
+    },
+    {
+      "degree": 22.5,
+      "verdict": "warning",
+      "expected": "up-right",
+      "observed": "up with very subtle right bias",
+      "reason": "Horizontal: face/pupil displacement toward right is weak at normal cell size and close to 000. Vertical: high pupils and raised chin clearly retain upward aim."
+    },
+    {
+      "degree": 45,
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "reason": "Horizontal: nose/mouth and near eye move toward screen right, with left ear visible and far eye narrowed. Vertical: lifted chin and pupils high in openings retain upward pitch."
+    },
+    {
+      "degree": 67.5,
+      "verdict": "warning",
+      "expected": "up-right, right dominant",
+      "observed": "right with subtle upward pitch",
+      "reason": "Horizontal: clear rightward facial turn, left ear visible and far eye narrower. Vertical: pupils sit slightly high and chin is less lowered than at 112.5, but upward component is subtle."
+    },
+    {
+      "degree": 90,
+      "verdict": "pass",
+      "expected": "right",
+      "observed": "right",
+      "reason": "Clear screen-right head turn: left ear visible, far eye narrowed, nose/mouth shifted right; pitch near level. Matches approved right cardinal."
+    },
+    {
+      "degree": 112.5,
+      "verdict": "pass",
+      "expected": "down-right, right dominant",
+      "observed": "down-right",
+      "reason": "Horizontal: near eye, nose and mouth remain shifted screen-right with visible left ear. Vertical: brow slopes downward, chin drops and crown occupies more of the head than at 090."
+    },
+    {
+      "degree": 135,
+      "verdict": "warning",
+      "expected": "down-right",
+      "observed": "down with subtle right bias",
+      "reason": "Horizontal: face approaches frontal; a small rightward pupil/face bias remains but is weak at normal size. Vertical: lowered chin, compressed face below large crown, and downward pupils clearly indicate down."
+    },
+    {
+      "degree": 157.5,
+      "verdict": "warning",
+      "expected": "down-right, down dominant",
+      "observed": "down with very subtle right bias",
+      "reason": "Horizontal: almost centered face, with no clear leftward reversal; right component is difficult to distinguish at normal cell size. Vertical: low chin and face beneath expanded crown clearly indicate downward aim."
+    },
+    {
+      "degree": 180,
+      "verdict": "pass",
+      "expected": "down",
+      "observed": "down",
+      "reason": "Horizontal: face is centered with balanced eyes. Vertical: chin drops, pupils aim low and crown occupies more of the head, making down unmistakable."
+    },
+    {
+      "degree": 202.5,
+      "verdict": "warning",
+      "expected": "down-left, down dominant",
+      "observed": "down with subtle left bias",
+      "reason": "Horizontal: pupils and lower face shift slightly screen-left; no right reversal, but distinction from 180 is weak at normal size. Vertical: low chin and compressed face beneath crown clearly retain down."
+    },
+    {
+      "degree": 225,
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "reason": "Horizontal: nose and mouth move screen-left, right ear emerges and far eye narrows. Vertical: lowered chin and low pupil placement retain downward pitch."
+    },
+    {
+      "degree": 247.5,
+      "verdict": "warning",
+      "expected": "down-left, left dominant",
+      "observed": "left with subtle downward pitch",
+      "reason": "Horizontal: clear leftward facial turn with right ear visible and far eye narrowed. Vertical: chin is lower and eye line more downward than 270, but downward component is subtle at normal size."
+    },
+    {
+      "degree": 270,
+      "verdict": "pass",
+      "expected": "left",
+      "observed": "left",
+      "reason": "Horizontal: unmistakable left head turn, nose and mouth facing screen-left, right ear exposed and far eye compressed. Vertical: near-level pitch distinguishes cardinal from lowered 225 and raised 315."
+    },
+    {
+      "degree": 292.5,
+      "verdict": "warning",
+      "expected": "up-left, left dominant",
+      "observed": "left with subtle upward pitch",
+      "reason": "Horizontal: left head turn remains clear with right ear exposed. Vertical: pupils and chin are slightly higher than 270, retaining the upward quadrant, though adjacent frames are visually close."
+    },
+    {
+      "degree": 315,
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "reason": "Horizontal: nose, mouth and face aim screen-left with right ear visible. Vertical: raised chin, exposed lower face and high pupils clearly indicate upward pitch."
+    },
+    {
+      "degree": 337.5,
+      "verdict": "pass",
+      "expected": "up-left, up dominant",
+      "observed": "up-left",
+      "reason": "Horizontal: nose and mouth remain screen-left with right ear visible. Vertical: lifted chin and high pupils clearly point up. Horizontal turn remains stronger than ideal for an up-dominant angle, producing a noticeable transition into frontal 000."
+    }
+  ],
+  "continuity_notes": [
+    "Ordered up to upper-right to right to lower-right to down progression. No wrong quadrant or clear reversal. Adjacent 000/022.5 and 067.5/090 are visually close, while 112.5 to 135 has a noticeable turn toward frontal down; usable but intermediate axis distinctions are subtle.",
+    "Ordered down to down-left to left to up-left progression without wrong quadrant or reversal. 157.5 to 180 changes from subtle right bias into centered down correctly. 247.5 to 270 has a noticeable left turn; 337.5 to 000 has a noticeable return to frontal up. These metric outliers reflect head turn rather than scale change, displaced body, or clipping."
+  ],
+  "review_warnings": "Subtle intermediate gaze axes and some head-turn step changes independently accepted; cardinals remain unmistakable."
+}

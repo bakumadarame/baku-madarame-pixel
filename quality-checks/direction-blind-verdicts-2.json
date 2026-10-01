@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-left",
+      "B": "screen-left",
+      "reason": "Both faces lean left, B subtler."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A nose right; B nose left."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "Opposing nose and eye profiles."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A left profile; B right profile."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A facial plane left; B facial plane right."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "ambiguous",
+      "B": "ambiguous",
+      "reason": "Both heads down, lateral cues unresolved."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "ambiguous",
+      "B": "ambiguous",
+      "reason": "Lowered eyelids and hair obscure pupils."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "up",
+      "B": "down",
+      "reason": "A chin/eyes lifted; B face/eyes lowered."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "down",
+      "B": "up",
+      "reason": "A eyelids/chin down; B face lifted and high pupils."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A eye/chin raised; B bowed."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "ambiguous",
+      "B": "ambiguous",
+      "reason": "Small differences in side profiles do not resolve vertical gaze."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "up",
+      "reason": "A bowed; B chin lifted and eyes high."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "up",
+      "B": "down",
+      "reason": "A nose/chin up; B lowered half-closed eyes."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "ambiguous",
+      "B": "ambiguous",
+      "reason": "Both close to level with unresolved pupil direction."
+    }
+  ]
+}

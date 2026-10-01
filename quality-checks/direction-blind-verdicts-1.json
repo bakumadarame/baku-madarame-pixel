@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-left",
+      "B": "ambiguous",
+      "reason": "A left-projecting nose; B nearly frontal."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "Opposite nose and facial profiles."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "Opposite nose and cheek profiles."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A nose left; B nose right."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A face left; B face right."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "ambiguous",
+      "B": "ambiguous",
+      "reason": "Both lowered faces nearly frontal; lateral cues unclear."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "ambiguous",
+      "B": "ambiguous",
+      "reason": "Hair hides lateral pupils/noses."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "up",
+      "B": "down",
+      "reason": "A chin and eyes raised; B face bowed."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "down",
+      "B": "up",
+      "reason": "A face bowed; B chin and eyes lifted."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A chin raised; B face down."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "ambiguous",
+      "B": "ambiguous",
+      "reason": "Both profiles near level; vertical cues unclear."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "up",
+      "reason": "A bowed; B chin lifted."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "up",
+      "B": "down",
+      "reason": "A chin/nose raised; B eyes/head lowered."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "ambiguous",
+      "B": "ambiguous",
+      "reason": "Both near-level profiles; vertical cues unclear."
+    }
+  ]
+}
