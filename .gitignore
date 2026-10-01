@@ -1,0 +1,8 @@
+# Keep local working files and credentials out of this public package.
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+work/
+*.bundle
